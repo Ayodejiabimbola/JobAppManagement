@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "eG0OoUxmBhsN3sGEWXpjzc/+89pNeBYvqGcnXYKvaFg=",
+  "Hash": "3SMY9iO1G9Q9GAuGRaiKtaPoD9G+Fl9lKp78HM6UK5o=",
   "Source": "JobAppManagement",
   "BasePath": "_content/JobAppManagement",
   "Mode": "Default",
@@ -17,10 +17,86 @@
   ],
   "Assets": [
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\obj\\Debug\\net8.0\\scopedcss\\bundle\\JobAppManagement.styles.css",
+      "Identity": "C:\\Users\\HP\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\notyf.min.css",
+      "SourceId": "AspNetCoreHero.ToastNotification",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\HP\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\",
+      "BasePath": "_content/AspNetCoreHero.ToastNotification",
+      "RelativePath": "notyf.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\HP\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\notyf.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\notyf.min.js",
+      "SourceId": "AspNetCoreHero.ToastNotification",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\HP\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\",
+      "BasePath": "_content/AspNetCoreHero.ToastNotification",
+      "RelativePath": "notyf.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\HP\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\notyf.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\toastify.css",
+      "SourceId": "AspNetCoreHero.ToastNotification",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\HP\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\",
+      "BasePath": "_content/AspNetCoreHero.ToastNotification",
+      "RelativePath": "toastify.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\HP\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\toastify.css"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\toastify.js",
+      "SourceId": "AspNetCoreHero.ToastNotification",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\HP\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\",
+      "BasePath": "_content/AspNetCoreHero.ToastNotification",
+      "RelativePath": "toastify.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\HP\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\toastify.js"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\obj\\Debug\\net8.0\\scopedcss\\bundle\\JobAppManagement.styles.css",
       "SourceId": "JobAppManagement",
       "SourceType": "Computed",
-      "ContentRoot": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/JobAppManagement",
       "RelativePath": "JobAppManagement.styles.css",
       "AssetKind": "All",
@@ -33,13 +109,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\obj\\Debug\\net8.0\\scopedcss\\bundle\\JobAppManagement.styles.css"
+      "OriginalItemSpec": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\obj\\Debug\\net8.0\\scopedcss\\bundle\\JobAppManagement.styles.css"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\JobAppManagement.bundle.scp.css",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\JobAppManagement.bundle.scp.css",
       "SourceId": "JobAppManagement",
       "SourceType": "Computed",
-      "ContentRoot": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/JobAppManagement",
       "RelativePath": "JobAppManagement.bundle.scp.css",
       "AssetKind": "All",
@@ -52,10 +128,10 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\JobAppManagement.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\JobAppManagement.bundle.scp.css"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\css\\site.css",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -74,7 +150,7 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\favicon.ico",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -93,7 +169,7 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\js\\site.js",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -112,7 +188,7 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -131,7 +207,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -150,7 +226,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -169,7 +245,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -188,7 +264,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -207,7 +283,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -226,7 +302,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -245,7 +321,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -264,7 +340,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -283,7 +359,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -302,7 +378,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -321,7 +397,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -340,7 +416,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -359,7 +435,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -378,7 +454,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -397,7 +473,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -416,7 +492,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -435,7 +511,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -454,7 +530,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -473,7 +549,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -492,7 +568,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -511,7 +587,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -530,7 +606,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -549,7 +625,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -568,7 +644,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -587,7 +663,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -606,7 +682,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -625,7 +701,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -644,7 +720,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -663,7 +739,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -682,7 +758,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -701,7 +777,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -720,7 +796,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -739,7 +815,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -758,7 +834,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -777,7 +853,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -796,7 +872,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -815,7 +891,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -834,7 +910,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -853,7 +929,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -872,7 +948,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -891,7 +967,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -910,7 +986,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -929,7 +1005,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -948,7 +1024,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -967,7 +1043,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -986,7 +1062,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -1005,7 +1081,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -1024,7 +1100,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -1043,7 +1119,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -1062,7 +1138,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -1081,7 +1157,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -1100,7 +1176,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -1119,7 +1195,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -1138,7 +1214,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -1157,7 +1233,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",
@@ -1176,7 +1252,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "c:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "JobAppManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\MyProjects\\MVC\\JobAppManagement\\wwwroot\\",

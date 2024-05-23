@@ -1,5 +1,5 @@
 public interface IAuditBase
 {
-    public DateTime CreatedOn { get; set; }
-    public DateTime? UpdatedOn { get; set; }
+    public DateTime AppliedOn { get; set; }
+    public DateTime? LastUpdated { get; set; }
 }
