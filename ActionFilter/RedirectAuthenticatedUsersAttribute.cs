@@ -13,7 +13,7 @@ public class RedirectAuthenticatedUsersAttribute : Attribute, IActionFilter
     {
         if (context.HttpContext.User.Identity!.IsAuthenticated)
         {
-            context.Result = new RedirectToActionResult("Index", "Applicant", null);
+            context.Result = new RedirectToActionResult("Login", "Auth", null);
         }
     }
 }

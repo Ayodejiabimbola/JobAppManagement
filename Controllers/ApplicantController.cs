@@ -14,7 +14,7 @@ using JobAppManagement.Data;
 namespace JobAppManagement.Controllers;
 
 [Authorize]
-public class TeamController(UserManager<IdentityUser> userManager,
+public class ApplicantController(UserManager<IdentityUser> userManager,
     SignInManager<IdentityUser> signInManager,
     INotyfService notyf,
     JobAppManagementContext jobAppManagementContext,

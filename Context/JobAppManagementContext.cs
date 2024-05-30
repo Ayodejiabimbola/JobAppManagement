@@ -12,6 +12,8 @@ public class JobAppManagementContext(DbContextOptions<JobAppManagementContext> o
     {
         base.OnModelCreating(builder);
         builder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+        builder.Entity<ApplicantJob>()
+        .HasNoKey();
     }
 
     public DbSet<Applicant> Applicant { get; set; }
@@ -19,3 +21,4 @@ public class JobAppManagementContext(DbContextOptions<JobAppManagementContext> o
     public DbSet<ApplicantJob> ApplicantJob { get; set; }
     public DbSet<Job> Job { get; set; }
 }
+

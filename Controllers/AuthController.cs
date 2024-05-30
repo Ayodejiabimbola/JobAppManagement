@@ -35,6 +35,11 @@ public class AuthController(
         if (ModelState.IsValid)
         {
             var user = await _userManager.FindByNameAsync(model.Username) ?? await _userManager.FindByEmailAsync(model.Username);
+            if (user == null)
+            {
+                ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+                return View(model);
+            }
 
             var result = await _signInManager.PasswordSignInAsync(user!.UserName!, model.Password, false, lockoutOnFailure: false);
 
@@ -43,7 +48,7 @@ public class AuthController(
                 var userDetails = await Helper.GetCurrentUserIdAsync(_httpContextAccessor, _userManager);
                 var applicant = await _jobAppManagementContext.Applicant.AnyAsync(x => x.UserId == userDetails.userId);
 
-                var redirectResult = applicant ? RedirectToAction("Index", "Applicant") : RedirectToAction("ApplicantRegistration", "Applicant");
+                var redirectResult = applicant ? RedirectToAction("ApplicantDetails", "Applicant") : RedirectToAction("Index", "Applicant");
 
                 _notyfService.Success("Login succesful");
                 return redirectResult;
@@ -92,7 +97,7 @@ public class AuthController(
 
             _notyfService.Success("Registration was successful");
             await _signInManager.SignInAsync(user, isPersistent: false);
-            return RedirectToAction("ApplicantRegistration", "Applicant");
+            return RedirectToAction("Login", "Auth");
         }
 
         return View(model);
