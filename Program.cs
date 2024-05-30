@@ -1,6 +1,33 @@
+using AspNetCoreHero.ToastNotification;
+using AspNetCoreHero.ToastNotification.Extensions;
+using JobAppManagement.Context;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+builder.Services.AddDbContext<JobAppManagementContext>(
+    opt => opt.UseMySQL(connectionString: builder.Configuration.GetConnectionString("AppDBConnection")!));
+
+builder.Services.AddIdentity<IdentityUser, IdentityRole>(opt => 
+{
+    opt.Password.RequiredLength = 7;
+    opt.Password.RequireDigit = false;
+    opt.Password.RequireUppercase = false;
+    opt.User.RequireUniqueEmail = true;
+})
+.AddEntityFrameworkStores<JobAppManagementContext>()
+.AddDefaultTokenProviders();
+
+builder.Services.AddNotyf(config =>
+{
+    config.DurationInSeconds = 7;
+    config.IsDismissable = true;
+    config.Position = NotyfPosition.TopRight;
+});
+
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
@@ -19,12 +46,10 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+app.UseNotyf();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Auth}/{action=Register}/{id?}");
 
 app.Run();
-
-
-

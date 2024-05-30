@@ -8,7 +8,7 @@ namespace JobAppManagement.Context;
 
 public class JobAppManagementContext(DbContextOptions<JobAppManagementContext> options) : IdentityDbContext(options)
 {
-     protected override void OnModelCreating(ModelBuilder builder)
+    protected override void OnModelCreating(ModelBuilder builder)
     {
         base.OnModelCreating(builder);
         builder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
