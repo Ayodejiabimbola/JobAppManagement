@@ -1,4 +1,6 @@
 
+using JobAppManagement.Data.Enum;
+
 namespace JobAppManagement.Data;
 public class Applicant : BaseEntity
 {

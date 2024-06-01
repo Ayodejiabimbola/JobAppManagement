@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc.Rendering;
+﻿using JobAppManagement.Data.Enum;
+using JobAppManagement.Data;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using System.ComponentModel.DataAnnotations;
 
 namespace JobAppManagement.Models.Applicant;
@@ -12,6 +14,10 @@ public class ApplicantViewModel
     [Display(Name = "Last Name")]
     [Required]
     public string LastName { get; set; } = default!;
+
+    [Display(Name = "Gender")]
+    [Required(ErrorMessage ="Please select a gender")]
+    public Gender Gender { get; set; } = default!;
 
     [Display(Name = "Email")]
     [Required]

@@ -1,50 +1,46 @@
-@model JobAppManagement.Models.Applicant.ApplicantViewModel
+@model JobAppManagement.Models.Applicant.ApplicantDetailViewModel
 
 @{
     ViewData["Title"] = "Applicant Details";
 }
 
 <h2>@ViewData["Title"]</h2>
-<hr>
+<hr />
 
-<form asp-action="ApplicantDetail">
+<div class="ApplicantDetail">
 
-    <div class="mb-3">
-        <label asp-for="FirstName" class="form-label"></label>
-        <input type="text" class="form-control" asp-for="FirstName">
-        <span asp-validation-for="FirstName" class="text-danger"></span>
-    </div>
+        <div class="mb-3">
+            <label asp-for="FirstName" class="form-label"></label>
+        <output type="text" class="form-control" asp-for="FirstName">@Model.FirstName</output>
+            <span asp-validation-for="FirstName" class="text-danger"></span>
+        </div>
 
-    <div class="mb-3">
-        <label asp-for="LastName" class="form-label"></label>
-        <input type="text" class="form-control" asp-for="LastName">
-        <span asp-validation-for="LastName" class="text-danger"></span>
-    </div>
+        <div class="mb-3">
+            <label asp-for="LastName" class="form-label"></label>
+        <output type="text" class="form-control" asp-for="LastName">@Model.LastName</output>
+            <span asp-validation-for="LastName" class="text-danger"></span>
+        </div>
 
-    <div class="mb-3">
-        <label asp-for="Email" class="form-label"></label>
-        <input type="email" class="form-control" asp-for="Email">
-        <span asp-validation-for="Email" class="text-danger"></span>
-    </div>
+        <div class="mb-3">
+            <label asp-for="Email" class="form-label"></label>
+            <output type="email" class="form-control" asp-for="Email">@Model.Email</output>
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
 
-    
-    <div class="mb-3">
-        <label asp-for="PhoneNumber" class="form-label"></label>
-        <input type="text" class="form-control" asp-for="PhoneNumber">
-        <span asp-validation-for="PhoneNumber" class="text-danger"></span>
-    </div>
-
-    <div class="mb-3">
-        <label asp-for="StateId" class="form-label"></label>
-        <select asp-for="StateId" class="form-control">
-            <option value="" selected hidden disabled>Select State</option>
-            @foreach (var item in Model.States)
-            {
-                <option value="@item.Value">@item.Text</option>
-            }
-        </select>
-        <span asp-validation-for="StateId" class="text-danger"></span>
-    </div>
-
-    <button type="submit" class="btn btn-success">Submit</button>
-</form>
+        
+        <div class="mb-3">
+            <label asp-for="PhoneNumber" class="form-label"></label>
+            <output type="text" class="form-control" asp-for="PhoneNumber">@Model.PhoneNumber</output>
+            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+        </div>
+        
+        <div class="mb-3">
+            <label asp-for="Gender" class="form-label"></label>
+            <output type="text" class="form-control" asp-for="Gender">@Model.Gender</output>
+            <span asp-validation-for="Gender" class="text-danger"></span>
+        </div>
+</div>
+@* <div>
+    <a asp-action="UpdateMemberDetails" asp-controller="Member">Update</a>
+    <a asp-action="DeleteMember" asp-controller="Member">Delete</a>
+</div> *@

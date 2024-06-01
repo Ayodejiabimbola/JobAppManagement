@@ -81,4 +81,68 @@ public class ApplicantController(UserManager<IdentityUser> userManager,
         _notyfService.Error("An error occured during registration");
         return View();
     }
+
+     [HttpGet("Applicant/ViewApplicantDetails")]
+    public async Task<IActionResult> ApplicantDetail()
+    {
+        var user = await _userManager.GetUserAsync(User);
+
+        var applicant = await _jobAppManagementContext.Applicant
+            // .Include(m => m.FirstName)
+            // .Include(m => m.LastName)
+            // .Include(m => m.Email)
+            // .Include(m => m.PhoneNumber)
+            // .Include(m => m.Gender)        
+            .FirstOrDefaultAsync(m => m.UserId == user!.Id);
+
+
+        if (applicant != null)
+        {
+            var applicantDetailViewModel = new ApplicantDetailViewModel
+            {
+                FirstName = applicant.FirstName,
+                LastName = applicant.LastName,
+                Email = applicant.Email,
+                PhoneNumber = applicant.PhoneNumber,
+                Gender = applicant.Gender,
+            };
+
+            return View(applicantDetailViewModel);
+        }
+        else
+        {
+            _notyfService.Error("Applicant details not found");
+            return RedirectToAction("ApplicantRegistration", "Applicant");
+        }
+    }
+
+
+
+    public IActionResult DeleteApplicant()
+    {
+        return View();
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> DeleteApplicant(ApplicantDetailViewModel model)
+    {
+        var user = await _userManager.GetUserAsync(User);
+
+        var member = await _jobAppManagementContext.Applicant
+            .FirstOrDefaultAsync(m => m.UserId == user!.Id);
+
+        if (member != null)
+        {
+            _jobAppManagementContext.Remove(member);
+            await _jobAppManagementContext.SaveChangesAsync();
+
+            _notyfService.Success("Applicant details deleted successfully");
+            return RedirectToAction("ApplicantRegistration", "Applicant");
+        }
+        else
+        {
+            _notyfService.Error("Applicant details not found");
+            return RedirectToAction("ApplicantRegistration", "Applicant");
+        }
+    }
 }

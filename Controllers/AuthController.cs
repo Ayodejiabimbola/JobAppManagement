@@ -29,29 +29,28 @@ public class AuthController(
         return View();
     }
 
-    [HttpPost]
+    [HttpPost("/Auth/Login")]
     public async Task<IActionResult> Login(LoginViewModel model)
     {
         if (ModelState.IsValid)
         {
             var user = await _userManager.FindByNameAsync(model.Username) ?? await _userManager.FindByEmailAsync(model.Username);
-            if (user == null)
+
+            if (user != null)
             {
-                ModelState.AddModelError(string.Empty, "Invalid login attempt.");
-                return View(model);
-            }
+                var result = await _signInManager.PasswordSignInAsync(user.UserName!, model.Password, false, lockoutOnFailure: false);
 
-            var result = await _signInManager.PasswordSignInAsync(user!.UserName!, model.Password, false, lockoutOnFailure: false);
+                if (result.Succeeded)
+                {
+                    var userDetails = await Helper.GetCurrentUserIdAsync(_httpContextAccessor, _userManager);
+                    var applicant = await _jobAppManagementContext.Applicant.AnyAsync(x => x.UserId == userDetails.userId);
 
-            if (result.Succeeded)
-            {
-                var userDetails = await Helper.GetCurrentUserIdAsync(_httpContextAccessor, _userManager);
-                var applicant = await _jobAppManagementContext.Applicant.AnyAsync(x => x.UserId == userDetails.userId);
+                    var redirectResult = applicant ? RedirectToAction("ApplicantDetail", "Applicant") : RedirectToAction("ApplicantRegistration", "Applicant");
 
-                var redirectResult = applicant ? RedirectToAction("ApplicantDetails", "Applicant") : RedirectToAction("Index", "Applicant");
+                    _notyfService.Success("Login succesful");
+                    return redirectResult;
+                }
 
-                _notyfService.Success("Login succesful");
-                return redirectResult;
             }
 
             ModelState.AddModelError("", "Invalid login attempt");
@@ -62,7 +61,7 @@ public class AuthController(
         return View(model);
     }
 
-    [RedirectAuthenticatedUsers]
+    //[RedirectAuthenticatedUsers]
     public IActionResult Register()
     {
         return View();
