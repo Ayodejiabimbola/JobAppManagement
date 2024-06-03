@@ -1,0 +1,41 @@
+@model List<Job>
+
+@{
+    ViewData["Title"] = "Jobs";
+}
+
+<h1>Jobs</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th></th>
+            @* <th>Description</th> *@
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var job in Model)
+        {
+            <tr>
+                <td>@job.Name</td>
+                @* <td>@job.Description</td> *@
+                @* <td>
+            <a asp-action="EditJob" asp-route-id="@job.Name">Edit</a> |
+            <a asp-action="JobDetails" asp-route-id="@job.Name">Details</a> |
+            <a asp-action="DeleteJob" asp-route-id="@job.Name">Delete</a>
+            </td> *@
+            </tr>
+        }
+    </tbody>
+</table>
+
+<p>
+    
+        @* <li class="nav-item"> *@
+            <a asp-controller="Home" asp-action="Index" class="nav-link link-body-emphasis px-2">
+                <button type="submit" class="nav-link link-body-emphasis px-2" asp-controller="Home"
+                    asp-action="Index">Apply</button>
+            </a>
+        @* </li> *@
+</p>

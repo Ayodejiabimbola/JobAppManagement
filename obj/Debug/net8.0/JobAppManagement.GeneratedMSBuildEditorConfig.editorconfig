@@ -54,6 +54,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/HP/Desktop/MyProjects/MVC/JobAppManagement/Views/Job/CreateJob.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iXENyZWF0ZUpvYi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/MyProjects/MVC/JobAppManagement/Views/Job/DeleteJob.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iXERlbGV0ZUpvYi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/MyProjects/MVC/JobAppManagement/Views/Job/EditJob.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iXEVkaXRKb2IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/MyProjects/MVC/JobAppManagement/Views/Job/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/MyProjects/MVC/JobAppManagement/Views/Job/JobDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iXEpvYkRldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/HP/Desktop/MyProjects/MVC/JobAppManagement/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

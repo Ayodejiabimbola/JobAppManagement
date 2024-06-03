@@ -12,4 +12,5 @@ public class Applicant : BaseEntity
     public Gender Gender { get; set; }
     public string UserId { get; internal set; } = default!;
     public int StateId { get; internal set; }
+    public int JobId { get; internal set; } 
 }

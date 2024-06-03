@@ -32,4 +32,9 @@ public class ApplicantViewModel
     [Required(ErrorMessage ="Please select a state")]
     public int StateId { get; set; }
     public List<SelectListItem> States { get; set; } = default!;
+
+    [Display(Name = "Job")]
+    [Required(ErrorMessage ="Select Position you want to apply for")]
+    public int JobId { get; set; }
+    public List<SelectListItem> Job { get; set; } = default!;
 }

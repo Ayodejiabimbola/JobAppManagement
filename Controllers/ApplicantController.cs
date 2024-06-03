@@ -15,10 +15,10 @@ namespace JobAppManagement.Controllers;
 
 [Authorize]
 public class ApplicantController(UserManager<IdentityUser> userManager,
-    SignInManager<IdentityUser> signInManager,
-    INotyfService notyf,
-    JobAppManagementContext jobAppManagementContext,
-    IHttpContextAccessor httpContextAccessor) : Controller
+SignInManager<IdentityUser> signInManager,
+INotyfService notyf,
+JobAppManagementContext jobAppManagementContext,
+IHttpContextAccessor httpContextAccessor) : Controller
 {
     private readonly UserManager<IdentityUser> _userManager = userManager;
     private readonly SignInManager<IdentityUser> _signInManager = signInManager;
@@ -39,9 +39,16 @@ public class ApplicantController(UserManager<IdentityUser> userManager,
             Value = x.Id.ToString()
         }).ToList();
 
+        var jobs = _jobAppManagementContext.Job.Select(x => new SelectListItem
+        {
+            Text = x.Name,
+            Value = x.Id.ToString()
+        }).ToList();
+
         var viewModel = new ApplicantViewModel
         {
-            States = states
+            States = states,
+            Job = jobs
         };
 
         return View(viewModel);
@@ -59,14 +66,15 @@ public class ApplicantController(UserManager<IdentityUser> userManager,
             return View(model);
         }
 
-        var applicant = new Applicant 
+        var applicant = new Applicant
         {
             UserId = userDetail.userId,
             FirstName = model.FirstName,
             LastName = model.LastName,
             Email = model.Email,
             PhoneNumber = model.PhoneNumber,
-            StateId = model.StateId
+            StateId = model.StateId,
+            JobId = model.JobId
         };
 
         await _jobAppManagementContext.AddAsync(applicant);
@@ -82,7 +90,7 @@ public class ApplicantController(UserManager<IdentityUser> userManager,
         return View();
     }
 
-     [HttpGet("Applicant/ViewApplicantDetails")]
+    [HttpGet("Applicant/ApplicantDetail")]
     public async Task<IActionResult> ApplicantDetail()
     {
         var user = await _userManager.GetUserAsync(User);
@@ -117,6 +125,57 @@ public class ApplicantController(UserManager<IdentityUser> userManager,
     }
 
 
+    public IActionResult EditApplicant()
+    {
+        var states = _jobAppManagementContext.States.Select(x => new SelectListItem
+        {
+            Text = x.Name,
+            Value = x.Id.ToString()
+        }).ToList();
+
+        var viewModel = new ApplicantViewModel
+        {
+            States = states
+        };
+
+        return View(viewModel);
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> EditApplicant(ApplicantDetailViewModel model)
+    {
+        if (ModelState.IsValid)
+        {
+            var user = await _userManager.GetUserAsync(User);
+
+            var applicant = await _jobAppManagementContext.Applicant
+                .FirstOrDefaultAsync(a => a.UserId == user!.Id);
+
+            if (applicant != null)
+            {
+                applicant.FirstName = model.FirstName;
+                applicant.LastName = model.LastName;
+                applicant.Email = model.Email;
+                applicant.PhoneNumber = model.PhoneNumber;
+                applicant.Gender = model.Gender;
+
+                _jobAppManagementContext.Update(applicant);
+                await _jobAppManagementContext.SaveChangesAsync();
+
+                _notyfService.Success("Applicant details updated successfully");
+                return RedirectToAction("Index", "Applicant");
+            }
+            else
+            {
+                _notyfService.Error("Applicant details not found");
+                return RedirectToAction("ApplicantDetail", "Applicant");
+            }
+        }
+
+        _notyfService.Error("An error occurred while updating detail");
+        return View(model);
+    }
+
 
     public IActionResult DeleteApplicant()
     {
@@ -128,12 +187,12 @@ public class ApplicantController(UserManager<IdentityUser> userManager,
     {
         var user = await _userManager.GetUserAsync(User);
 
-        var member = await _jobAppManagementContext.Applicant
-            .FirstOrDefaultAsync(m => m.UserId == user!.Id);
+        var applicant = await _jobAppManagementContext.Applicant
+            .FirstOrDefaultAsync(a => a.UserId == user!.Id);
 
-        if (member != null)
+        if (applicant != null)
         {
-            _jobAppManagementContext.Remove(member);
+            _jobAppManagementContext.Remove(applicant);
             await _jobAppManagementContext.SaveChangesAsync();
 
             _notyfService.Success("Applicant details deleted successfully");
